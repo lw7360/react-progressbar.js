@@ -1,11 +1,14 @@
 {
   "name": "react-progressbar.js",
-  "version": "0.1.1-dev",
+  "version": "0.1.2",
   "description": "React wrapper for progressbar.js",
+  "browserify": {
+    "transform": ["babelify"]
+  },
   "main": "src/main.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kimmobrunfeldt/react-progressbar.js.git"
+    "url": "git+https://github.com/lw7360/react-progressbar.js.git"
   },
   "keywords": [
     "react",
@@ -25,9 +28,9 @@
   "author": "Kimmo Brunfeldt <kimmobrunfeldt@gmail.com> (http://kimmobrunfeldt.github.io/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kimmobrunfeldt/react-progressbar.js/issues"
+    "url": "https://github.com/lw7360/react-progressbar.js/issues"
   },
-  "homepage": "https://github.com/kimmobrunfeldt/react-progressbar.js#readme",
+  "homepage": "https://github.com/lw7360/react-progressbar.js#readme",
   "dependencies": {
     "lodash.isequal": "^3.0.4",
     "progressbar.js": "^0.9.0",
